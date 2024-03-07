@@ -5,8 +5,18 @@
 
 #include <stdio.h>
 
-int main() {
+int main()
+{
     // 이곳에 코드를 작성해주세요!
-
+    int time;
+    scanf("%d", &time);
+    if (time < 12)
+    {
+        printf("AM");
+    }
+    if (time >= 12)
+    {
+        printf("PM");
+    }
     return 0;
 }

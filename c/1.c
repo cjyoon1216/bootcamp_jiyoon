@@ -5,8 +5,15 @@
 
 #include <stdio.h>
 
-int main() {
+int main()
+{
     // 이곳에 코드를 작성해주세요!
 
+    int num;
+    scanf("%d", &num);
+
+    printf("%d", num % 10);
+    printf("%d", (num % 100) / 10);
+    printf("%d", num / 100);
     return 0;
 }

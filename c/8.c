@@ -5,8 +5,17 @@
 
 #include <stdio.h>
 
-int main() {
+int main()
+{
     // 이곳에 코드를 작성해주세요!
+    int n, sum = 0, mul = 1;
+    scanf("%d", &n);
 
+    for (int i = 1; i <= n; i++)
+    {
+        sum += i;
+        mul *= i;
+    }
+    printf("%d\n%d", sum, mul);
     return 0;
 }

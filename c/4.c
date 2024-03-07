@@ -5,8 +5,31 @@
 
 #include <stdio.h>
 
-int main() {
+int main()
+{
     // 이곳에 코드를 작성해주세요!
+    int score;
+    scanf("%d", &score);
 
+    if (score < 60)
+    {
+        printf("F");
+    }
+    else if (score < 70)
+    {
+        printf("D");
+    }
+    else if (score < 80)
+    {
+        printf("C");
+    }
+    else if (score < 90)
+    {
+        printf("B");
+    }
+    else
+    {
+        printf("A");
+    }
     return 0;
 }
